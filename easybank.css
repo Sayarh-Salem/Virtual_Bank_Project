@@ -408,7 +408,7 @@ Hero
 ===============
 */
 .hero-img{
-  background-image: url(../easybank/assets/bg-intro-mobile.svg);
+  background-image: url(assets/bg-intro-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center ;
@@ -418,7 +418,7 @@ Hero
 }
 .hero-img::before{
   content: "";
-  background-image: url(../easybank/assets/image-mockups.png);
+  background-image: url(assets/image-mockups.png);
   background-repeat: no-repeat;
   position: absolute;
   height: 100%;
@@ -610,7 +610,7 @@ footer{
     grid-template-columns: 1fr 1fr;
   }
   .hero-img{
-    background-image: url(../easybank/assets/bg-intro-desktop.svg);
+    background-image: url(assets/bg-intro-desktop.svg);
     background-position: left center;
     height: 41rem;
   }
@@ -619,7 +619,7 @@ footer{
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url(../easybank/assets/image-mockups.png);        
+    background-image: url(assets/image-mockups.png);        
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 100%;
